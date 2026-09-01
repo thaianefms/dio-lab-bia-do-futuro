@@ -29,8 +29,10 @@ Os dados de perfil_investidor.json, produtos_financeiros.json, historico_atendim
 Existem duas possibilidades, injetar os dados diretamente no prompt (Ctrl + C, Ctrl + V) ou carregar os arquivos via código, como no exemplo abaixo:
 
 ```python
-import pandas as pd
 import json
+import pandas as pd
+import requests
+import streamlit as st
 
 perfil = json.load(open('./data/perfil_investidor.json'))
 transacoes = pd.read_csv('./data/transacoes.csv')

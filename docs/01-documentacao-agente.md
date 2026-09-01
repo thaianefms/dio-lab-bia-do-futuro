@@ -57,12 +57,12 @@ flowchart TD
 
 ### Componentes
 
+
 | Componente | Descrição |
 |------------|-----------|
-| Interface | Aplicação web interativa em Streamlit (ou interface via terminal/chat) para entrada das perguntas do usuário. |
-| LLM | Modelo de Linguagem (ex: Google Gemini / OpenAI GPT via API) instruído com System Prompt didático para personificar o Finn. |
-| Base de Conhecimento | Modelo de Linguagem (ex: Google Gemini / OpenAI GPT via API) instruído com System Prompt didático para personificar o Finn. |
-| Validação | Modelo de Linguagem (ex: Google Gemini / OpenAI GPT via API) instruído com System Prompt didático para personificar o Finn. |
+| Interface | [Streamlit](https://streamlit.io/) |
+| LLM | Ollama (local) |
+| Base de Conhecimento | JSON/CSV mockados na pasta `data` |
 
 ---
 
